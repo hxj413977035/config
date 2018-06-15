@@ -1,0 +1,9 @@
+server:
+  port: 9999
+eureka:
+  client:
+    service-url:
+     defaultZone: http://peer1:8788/eureka,http://peer2:8789/eureka
+spring:
+  application:
+    name: eurekaDemo

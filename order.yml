@@ -16,3 +16,7 @@ eureka:
 
 server:
   port: 10002
+  
+  
+evn: test
+  
